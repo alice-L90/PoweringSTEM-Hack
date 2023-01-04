@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PoweringSTEM</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Amatic+SC&family=Cairo:wght@500;900&family=Catamaran:wght@200&family=Cinzel:wght@500&family=Cormorant+SC:wght@500&family=DM+Serif+Display&family=Edu+QLD+Beginner:wght@500&family=Fascinate&family=Hind:wght@500&family=Kanit:wght@500&family=Lato&family=Mukta:wght@200;300&family=Nanum+Myeongjo:wght@800&family=Parisienne&family=Poppins:wght@200;300&family=Raleway:wght@300&family=Rubik&display=swap" rel="stylesheet">
+  </head>
+
+  <nav> 
+    <ul class="navBar">
+      <li> <a href="index.html"> Home </a> </li>
+        <div class="menu">
+          <li> <a href="calc.html">Calculator</a></li>
+          <div class="dropdownstuff">
+          <a href="#Calcumalo">BMI Calculator</a>
+          </div>
+        </div>
+      <li> <a href="exercise.html">Exercise </a> </li>
+      <li> <a href="diet.html">Diet </a> </li>
+    </ul>
+  </nav>
+  <body>
+    <div class="CalculateBMI">
+    <h1 >Body Mass Index</h1>
+    </div>
+    
+  <div class="imagecontainer">
+      <h2>Why is BMI Important?</h2>
+      <p>The BMI is a reliable indicator of your risk for diseases that can develop as a result of having a higher body fat percentage. Your chance of developing certain conditions like heart disease, high blood pressure, type 2 diabetes, gallstones, respiratory issues, and some malignancies increases with your BMI.</p><p>Understanding you BMI is essential to living with ease!</span></p>
+     <img src="https://parade.com/.image/t_share/MTkwNTgxMjkxNjk3NTc5OTAw/istock-1203599963-jpg.jpg">
+   
+	<p>As with cholesterol, blood sugar, or blood pressure, a single measure of BMI is not expected to be able to diagnose cardiovascular health or disease. Additionally, although cardiovascular health is crucial, it's not the only indicator of wellness! For instance, the study cited above did not take into account ailments like liver illness or arthritis that can potentially be pertinent to a person with a high BMI. In addition, rather than forecasting present health, BMI may be more helpful in predicting future health. According to studies like these two, people who are healthy but overweight or obese are more likely to eventually acquire diabetes or other detrimental health effects.</p>
+    <br>
+	<p>Nearly three million people worldwide pass away each year as a result of being overweight or obese, according to the WHO. Additionally, regardless of any specific ailment, persons with high BMIs frequently report feeling better after losing extra weight, both physically and mentally.</p>
+ </div>
+<!-- Jus incase the code is poop
+  <h1 class="CalculateBMI">Calculate BMI</h1>
+    <form class="bmi-calculator"
+    <div class="calculator-contents">
+      <p>Input Height in meters: </p>
+      <input class="height-input-field" type="text">
+      <p>Input weight in kilograms: </p>
+      <input class="weight-input-field" type="text"><br>
+      <button class="buttonthing">Press for BMI</button>
+    </div>
+    <h3 class="bmiresult"></h3>
+    <p class="bmiprint"></p>
+    </form>
+-->
+     <div class="imagecontainer">
+    <h1 class="CalculateBMI" id="Calcumalo">Calculator</h1>
+      <img src="https://www.issm.info/images/2021/08/19/25-JAN-2021-BMI-AND-SEX-01-iStock-1250503959.jpg">
+       </div>
+    
+    <form class="bmi-calculator">
+        <div class="calculator-contents">
+        <p>Input Height:</p>   
+        <div class='input-fields'>
+        <input class="height-input-field" type="text">
+        <label><input type="radio" name="height-unit" value="meters" checked>Meters</label>
+        <label><input type="radio" name="height-unit" value="centimeters">Centimeters</label>
+        </div>
+          
+        <p>Input Weight:</p>
+        <div class='input-fields'>
+          <input class="weight-input-field" type="text"><br>
+          <label><input type="radio" name="weight-unit" value="kilograms" checked>Kilograms</label>
+          <label><input type="radio" name="weight-unit" value="pounds">Pounds</label>
+        </div>
+      <br>
+        <button class="buttonthing">Press for BMI</button>
+        </div>
+        <h3 class="bmiresult"></h3>
+        <p class="bmiprint"></p>
+    </form>
+   <footer class="footer">
+	<a href="https://www.youtube.com/watch?v=z_3S2_41_FE">Learn more about BMI!</a>
+   </footer>
+    
+  </body>
+
+  <script src="script.js"></script>
+  
+</html>

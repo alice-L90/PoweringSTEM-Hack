@@ -1,0 +1,453 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #A8C69F;
+}
+
+/* color palette: #654F6F, #5C5D8D, #99A1A6, #A8C69F,  #CCE2A3*/
+
+h1{
+  font-size: 100px;
+  color: white;
+ font-family: 'Nanum Myeongjo', serif;
+  text-align: center;
+}
+h3 {
+  font-size: 40px;
+font-family: 'Parisienne', cursive;
+  text-align:center;
+  color: white;
+}
+h4{
+  font-size:30px;
+  font-family: 'DM Serif Display', serif;
+  color: #5C5D8D;
+  text-align: center;
+}
+p{
+  font-size: 20px;
+  font-family: 'DM Serif Display', serif;
+  text-align:center;
+}
+h2 {
+  font-size:50px;
+  font-family: 'DM Serif Display', serif;
+  color: #5C5D8D;
+  text-align: center;
+}
+img {
+  width: 50%;
+  height: 50%;
+  
+}
+/*Nav Bar*/ 
+nav {
+  font-size: 10px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+.navBar {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 10px;
+  text-align: right;
+}
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navBar a:hover {
+  color: #507963;
+  font-weight: bold;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  color: #5C5D8D;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 19px;
+}
+li a:hover{
+  color:#99A1A6;
+}
+/* homepage*/
+.physicalHealth{
+  text-align: center;
+  padding: 70px;
+  background-image: url("https://images.unsplash.com/photo-1560155016-bd4879ae8f21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTIyfHxoZWFsdGh8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.physicalHealth h3 {
+  color: #99A1A6;
+  font-size: 30px;
+}
+
+.obesity{
+  background-color: #A8C69F;
+  opacity: 0.9;
+  padding: 50px;
+  margin-left: 35px;
+  margin-right: 15px;
+}
+.obesity h2 {
+  color: #5C5D8D;
+}
+.obesity h3{
+  color:white;
+font-family: 'Nanum Myeongjo', serif;
+}
+.tips{
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+}
+.tips h2 {
+  color: #5C5D8D
+}
+/* Calculator Page */
+
+.imagecontainer {
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.imagecontainer img {
+  width: 40%;
+  height: 40%;
+}
+
+.imagecontainer h2{
+  color: #654F6F;
+  text-align: center;
+}
+
+.CalculateBMI {
+  background-image: url("https://images.unsplash.com/photo-1648201637025-1c77b9be3013?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ4fHxjYWxjdWxhdG9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10px;
+}
+.CalculateBMI h1{
+  color:   white;
+  font-family: 'Nanum Myeongjo', sans-serif;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'DM Serif Display', serif;
+}
+/* Calculator */
+
+.bmi-calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Nanum Myeongjo', sans-serif;
+  font-size: 1.2rem;
+}
+
+.calculator-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.height-input-field, .weight-input-field {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.input-fields {
+  display: flex;
+  align-items: center;
+}
+
+.input-fields label {
+  margin: 0 10px;
+}
+
+.buttonthing {
+  background-color: #2ECC71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.bmiresult {
+  color: #2ECC71;
+  font-family: 'Nanum Myeongjo', sans-serif;
+  text-align: center;
+}
+
+.bmiprint {
+  font-family: 'Nanum Myeongjo', sans-serif;
+  text-align: center;
+}
+
+/*exercise*/
+
+.Etips {
+  text-align: center;
+  padding: 10px;
+  background-image: url("https://images.unsplash.com/photo-1621788051568-dd6bbe1f2f5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGVudmlyb25tZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Etips span{
+  font-family: 'Nanum Myeongjo', sans-serif;
+  font-size: 20px;
+  text-align:center;
+}
+
+.evid {
+   display: flex;
+  justify-content: center;
+}
+.pe {
+   text-align: center;
+}
+.pe h2{
+  text-align: center;
+}
+.pe p{
+  font-size: 25px;
+   margin-left: 60px;
+  margin-right: 60px;
+}
+.Pu {
+  text-align: center;
+  margin: 0 30px;
+  width: 50%;
+  height: 50%;
+}
+.center{
+   display: flex;
+  justify-content: center;
+}
+.Pu button{
+  color: white;
+  border-radius: 10px;
+  padding:10px 20px;
+  background-color: #2ECC71;
+  font-family: 'Nanum Myeongjo', sans-serif;
+}
+.youtube {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.flexItems{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.mini {
+  text-align: center;
+}
+.mini button{
+  background-color: #2ECC71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 160px;
+}
+/* diet page */
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownstuff {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color:darkseagreen;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+}
+
+.menu:hover .dropdownstuff {
+  display:block;
+}
+
+.dropdownstuff a {
+  color: #5C5D8D;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownstuff a:hover {
+  background-color: #507963;
+}
+
+/* diet calculator */
+
+form {
+  margin: 20px;
+}
+
+#result {
+  margin: 20px;
+}
+
+/*diet text*/
+.contentsfordiet {
+  text-align: center;
+  padding: 5px;
+  font-size: 70px;
+  background-image: url("https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGVhdCUyMGhlYWx0aHl8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dietTxt {
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.menu{
+  text-align:center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.dropdownstuff{
+  text-align: center;
+}
+
+/* animation*/ 
+.flip{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 30px;
+}
+.single-box{
+  height: 450px;
+  max-width: 300px;
+  margin: auto;
+  position: relative;
+}
+.box{
+  perspective: 1000px;
+}
+.single-box{
+  text-align: center;
+  transition: all 1.5s;
+  transform-style: preserve-3d;
+}
+.box:hover .single-box{
+  transform:rotateY(180deg);
+}
+.front,.front2,.front3,.front4,.front5,.front6, .back, .back2, .back3,.back4,.back5, .back6{
+  width: 300px;
+  position: relative;
+  top:0;
+  left:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+}
+.front{
+  cursor: pointer;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmlzaCUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60" );
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+}
+.back, .back2,.back3, .back4,.back5, .back6{
+  transform: rotateY(180deg);
+  position: absolute;
+  height: 450px;
+  background: white;
+}
+.front2{
+  cursor: pointer;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1612257416648-ee7a6c533b4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmVhbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" );
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+  margin-left: 50px;
+}
+.front3{
+  cursor: pointer;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1576045057995-568f588f82fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BpbmFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60" );
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+}
+.front4{
+  cursor: pointer;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fycm90c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60" );
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+  margin-left: 50px;
+}
+.front5{
+  cursor: pointer;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1577234286642-fc512a5f8f11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z3JhcGVmcnVpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60" );
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+}
+.front6{
+  cursor: pointer;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1610397962076-02407a169a5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60" );
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+  margin-left: 50px;
+}
+/*calories calculator*/
+.calories{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Nanum Myeongjo', sans-serif;
+  font-size: 1.2rem;
+}
+#calcu {
+  background-image: url("https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGVhdCUyMGhlYWx0aHl8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+

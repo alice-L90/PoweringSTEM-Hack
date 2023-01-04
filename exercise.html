@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PowerSTEM Hack</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+ <script src="script.js"></script>
+  
+ <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Amatic+SC&family=Cairo:wght@500;900&family=Catamaran:wght@200&family=Cinzel:wght@500&family=Cormorant+SC:wght@500&family=DM+Serif+Display&family=Edu+QLD+Beginner:wght@500&family=Fascinate&family=Hind:wght@500&family=Kanit:wght@500&family=Lato&family=Mukta:wght@200;300&family=Nanum+Myeongjo:wght@800&family=Parisienne&family=Poppins:wght@200;300&family=Raleway:wght@300&family=Rubik&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+<nav> 
+<ul class="navBar">
+<li> <a href="index.html"> Home </a> </li>
+<li> <a href="calc.html"> Calculator</a></li>
+  <li> <a href="exercise.html">Exercise </a></li>
+<li> <a href="diet.html">Diet </a> </li>
+</ul>
+</nav>
+
+
+<div class="Etips"> 
+<h1> Exercises </h1>
+</div>
+  <div class="pe">
+  <p> It is important to get a workout in order to maintain healthy and keep your weight steady. It also helps to reduce any further health risks and improve your strength, ability to do things, and brain health. You must start out slowly and remember to stay hydrated. </p>
+    <p> According to <a href="https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm#:~:text=Regular%20physical%20activity%20is%20one,ability%20to%20do%20everyday%20activities."> CDC </a>, physical health can bring immense health benefits to everyone. It helps to lose weight, reduce risks for heart disease and stroke which are "two leading causes of death in the US". Being active also mean enhancing your body functions and mood and keeping blood sugar levels in control. </p>
+    <p>  The goal is to exercise for a total of 150 minutes of moderate exercise. Try to incorporate 30 minutes of physical activity each day for 5 days a week. Break down the workout for 10 minutes each if you need. Here are some suggested exercises for you to get started! Each one has a timer of 30 seconds so you can keep track. </p>
+  </div>
+  <h3> Listen to this playlist while you exercise!</h3>
+  <div class="evid">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/i0-lW-UX6mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+<p id="click" style="display: none"> burpees </p>
+  <button type="button" onclick="toggleText()"> 1 </button>
+  
+<p id="click-two" style="display: none"> jumping jacks </p>
+  <button type="button" onclick="toggleText2()"> 2 </button>
+
+  <p id="click-three" style="display: none"> high knees </p>
+  <button type="button" onclick="toggleText3()"> 3 </button> 
+
+  
+  <h2> Start Slow with Some Stretches:</h2>
+
+  
+   <div class="center">
+    <div class="Pu">
+  <p>Child's Pose </p> <img class="exercises" src="https://st2.depositphotos.com/1455259/7323/i/600/depositphotos_73231789-stock-photo-yoga-concept-with-young-woman.jpg">
+  <br>
+   <span id="count">30 </span> seconds
+<br>
+<button onclick="start()">
+START
+</button></p>
+    </div>
+
+    <div class="Pu">
+<p> Side Twist</p> <img class="exercises" src="https://cdn.pixabay.com/photo/2017/11/18/05/02/yoga-2959226_1280.jpg"> 
+  <br>
+   <span id="count">30 </span> seconds
+<br>
+<button onclick="start()">
+START
+</button>
+    </div>
+
+    <div class="Pu">
+  <p> Downward Dog</p> <img class="exercises" src="https://cdn.pixabay.com/photo/2017/11/18/05/00/woman-2959213_1280.jpg"> 
+  <br>
+   <span id="count">30 </span> seconds
+<br>
+<button onclick="start()">
+START
+</button>
+    </div>
+  </div>
+
+
+<h2> At-Home Exercises </h2>
+ 
+  <div class="center"> 
+    <div class="Pu">
+  <p>Push- Ups</p> 
+<img class="exercises" src="https://cdn.pixabay.com/photo/2016/09/21/23/08/sport-1685977_1280.jpg">
+ <br>                   
+<span id="count">30 </span> seconds
+  <br>
+<button onclick="start()">
+START
+</button> 
+    </div>
+
+    <div class="Pu">
+  <p> Squats </p>
+  <img class="exercises" src="https://images.unsplash.com/photo-1649887974297-4be052375a67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fHNxdWF0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60">
+   <br>                   
+<span id="count">30 </span> seconds
+  <br>
+<button onclick="start()">
+START
+</button> 
+    </div>
+   
+    <div class="Pu">
+  <p> Jogging </p> <img class="exercises" src ="https://cdn.pixabay.com/photo/2017/08/06/12/52/woman-2592247_1280.jpg">  
+<br>                   
+<span id="count">30 </span> seconds
+  <br>
+<button onclick="start()">
+START
+</button>
+  </div>
+  </div>
+ 
+<h2> Other Activities with Friends</h2>
+ 
+  <div class="center"> 
+ <div class="Pu">
+    <p> Weightlifting, Basketball, Swimming, Hiking, Biking, and More! </p>
+  <img class="exercises" src="https://images.unsplash.com/photo-1525518936950-b26ba153a5c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNoYWlyJTIwZXhlcmNpc2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+ </div> 
+  </div>
+  </div>
+<footer style="text-align:center"> All research done from these websites<a href="https://www.livestrong.com/article/121410-stretches-obese-people/"> LiveStrong </a>  <a href="https://www.bighealthandfitness.co.uk/easy-workouts-for-overweight-beginners/"> BigHealthHandFitness </a> <a href="https://shop.mydario.com/a/health-magazine/best-home-exercises-for-obese-beginners"> Shop.Mydario.com</a> 
+  </footer>
+
+
+
+ 
+    <h1> Follow the Instructors</h1>
+    <p> Help reduce weight and follow along with these verified YouTubers!  </p> 
+   <div class="youtube">
+
+  <div class="flexItems">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yL_dE81O_mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="flexItems">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XOivdhy7BDI" title="DAY 1 // THE DAILY10: 10 Min Upper Body Workout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="flexItems">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NTsQjy_s1Fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  </div>
+  <div class="flexItems">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/H4dVbaLqg84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+  </div>
+  </div>
+  
+</body>
